@@ -10,35 +10,43 @@ Template Color:	green;
 # Light green (links selected) #d7d677
 -------------------------------------------------------------------*/
 a, blockquote, span.love_quote, h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, span.post_date, .latest_posts .left13:hover .post_info h3 a, .latest_posts .left13_last:hover .post_info h3 a, .checkbox_container label span, .footer_names{
-color:#999700;
+color:#969781;
 }
 blockquote{
-border-left:3px #999700 solid;}
+border-left:3px #969781 solid;}
 a.post_read_more, a.view_all, .wp-pagenavi a, .wp-pagenavi span.current{
-border:1px #999700 solid;}
+border:1px #969781 solid;}
 .wp-pagenavi a:hover{ 
-background-color:#999700;}
+background-color:#969781;}
+
+/*edb7bc*/
 
 .back, .about_topsign, span.names_titles, span.subtitle{
-color:#b5af47;}
+color:#aecdc4;}
 .back, .contact_email a{
-border:1px solid #b5af47;}
+border:1px solid #E8ECED; }
 .no-touch .back:hover, .countdown_container, a.thumb_read_more, .full_width_carousel .left14 h3, .full_width_carousel .left14_last h3, input.form_submit_contact, input[type="checkbox"] + label:before, input[type="checkbox"]:checked + label:before
-{background-color:#b5af47; }
+{ background-color: #E8ECED; }
 
+.countdown_container { background: url(bg2.png); background-color: #f0f4f5 !important;}
+.countdown_container p a { color: rgba(155, 135, 46, 0.69); };
+
+/* #c76675
+
+ */
 
 .tp-title span:nth-child(2), .tp-title:hover, .page_header_title a, .title span, span.carousel_titles{
 color: #666;}
 
 .title_under, ul#main_menu li a.selected, ul#main_menu li a:hover {
-	color: #b5af47;
+	color: #aecdc4;
 }
 
 ul#main_menu li a.selected, ul#main_menu li a:hover, .footer_menu li{
 background:url() no-repeat left;}
 
 @media screen and (max-width: 680px) {
-nav.menu{background-color:#b5af47;}
+nav.menu{background-color:#969781;}
 ul#main_menu li a.selected, ul#main_menu li a:hover, .footer_menu li{
 background:none;}
 }

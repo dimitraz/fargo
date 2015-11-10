@@ -463,7 +463,7 @@ span.swirl_right{
 .countdown_container p { 
 	padding: 5% 0 2em 0;
 	text-align: center;
-	color: #eee;
+	color: #969781;
 	font-size: 22px;
 	font-weight: normal;
 	line-height: 2;
@@ -806,7 +806,8 @@ a.post_read_more{
 	color:#5d594d;
 }
 .latest_posts .left13:hover a.post_read_more, .latest_posts .left13_last:hover a.post_read_more {
-	color:#5d594d;
+ 	color:#5d594d; 
+
 }
 a.view_all{
 	display:inline-block;
