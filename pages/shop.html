@@ -1,0 +1,112 @@
+	
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>F/a/r/g/o</title>
+		<link rel="stylesheet" href="/semantic.css" type="text/css" />
+		<link rel="stylesheet" href="/style.css" type="text/css" screen="media" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="/semantic.js"></script>
+		<script>
+			$(document).ready(function() {
+			    $('.ui.dropdown').dropdown();
+			    $('#forthesakeofsticky .ui.sticky').sticky({ context: '#example1' });
+			    $('#forthesakeofstickytwo .ui.sticky').sticky({ context: '#example2' });
+			    $('.sidebarcont').click(function() { $('.ui.sidebar').sidebar('toggle'); });
+			});
+		</script>
+	</head>
+	<body>
+			<nav class="ui four item menu"> 
+		  <li class="item item">
+		    <a href="/">Home</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/about.html">About</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/notes.html">Moodboard</a>
+		  </li>
+		  <li class="item active">
+		    <a href="/pages/shop.html">Shop</a>
+		  </li>
+		</nav>
+
+
+		<!--
+				  <li class="ui dropdown item">
+		    Categories
+		    <i class="dropdown icon"></i>
+		    <div class="menu">
+		      <a class="item">Electronics</a>
+		      <a class="item">Automotive</a>
+		      <a class="item">Home</a>
+		    </div>
+		  </li>  --> 
+	<section class="ui black inverted segment">
+			<div class="ui two column stackable grid">
+			<div class="left floated column">
+				<h3> Shop </h3>
+				Fargo stocks zines and magazines. 
+			</div>
+			<div class="right floated right aligned column">
+				<button class="ui basic button"> <a href="/pages/cart.html">
+			  	<i class="icon shop"></i>
+			  	View cart </a>
+				</button>
+			</div>
+			</div>
+		</section>
+
+
+		<section class="ui stackable cards three column container">
+		<div class="column card">
+		  	<a class="image" href="/pages/zine.html">
+		        <img src="http://payload417.cargocollective.com/1/10/335727/10643017/viandanti01_905.jpg">
+		    </a>
+		    <div class="content">
+			    <div class="description">
+			    	E gli ultimi viandanti si ritirarono nelle catacombe
+			    </div>
+		    </div>
+		    <div class="extra content">
+		    	12$
+		  	</div>
+		</div>
+
+		<div class="column card">
+		  	<a class="image" href="/pages/zine.html">
+		        <img src="https://40.media.tumblr.com/7f9f534733410dd6df5b873a6b72225d/tumblr_njtra2slZw1s4ua7ho1_1280.jpg">
+		    </a>
+		    <div class="content">
+			    <div class="description">
+			    	Library of the printed web
+			    </div>
+		    </div>
+		    <div class="extra content">
+		    	12$
+		  	</div>
+		</div>
+
+		<div class="column card">
+		  	<a class="image" href="/pages/zine.html">
+		        <img src="http://www.automaticbooks.org/wp-content/uploads/2014/11/renato-agostin-frecce-6.jpg">
+		    </a>
+		    <div class="content">
+			    <div class="description">
+			    	Earth bound sky bound
+			    </div>
+		    </div>
+		    <div class="extra content">
+		    	5$
+		  	</div>
+		</div>
+		</section>
+			<footer class="ui center aligned segment footer">
+			l'enfer c'est les autres <br />
+			<div>&copy; 2015</div>
+		</footer>
+
+	</body>
+</html>
+	

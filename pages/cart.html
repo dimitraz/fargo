@@ -1,0 +1,123 @@
+	
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>F/a/r/g/o</title>
+		<link rel="stylesheet" href="/semantic.css" type="text/css" />
+		<link rel="stylesheet" href="/style.css" type="text/css" screen="media" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="/semantic.js"></script>
+		<script>
+			$(document).ready(function() {
+			    $('.ui.dropdown').dropdown();
+			    $('#forthesakeofsticky .ui.sticky').sticky({ context: '#example1' });
+			    $('#forthesakeofstickytwo .ui.sticky').sticky({ context: '#example2' });
+			    $('.sidebarcont').click(function() { $('.ui.sidebar').sidebar('toggle'); });
+			});
+		</script>
+	</head>
+	<body>
+			<nav class="ui four item menu"> 
+		  <li class="item item">
+		    <a href="/">Home</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/about.html">About</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/notes.html">Moodboard</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/shop.html">Shop</a>
+		  </li>
+		</nav>
+
+
+		<!--
+				  <li class="ui dropdown item">
+		    Categories
+		    <i class="dropdown icon"></i>
+		    <div class="menu">
+		      <a class="item">Electronics</a>
+		      <a class="item">Automotive</a>
+		      <a class="item">Home</a>
+		    </div>
+		  </li>  --> 
+	<section class="ui black inverted segment">
+			<div class="ui two column grid">
+			<div class="left floated column">
+				<h3> My cart </h3> 
+			</div>
+			<div class="right floated right aligned column">
+				<button class="ui basic button"> <a href="/pages/shop.html">
+			  	Back to shop </a>
+				</button>
+			</div>
+			</div>
+		</section>
+
+		<section class="ui container segment" style="position: relative">
+		<div class="ui three column very relaxed stackable grid">
+			<div class="column">
+		    	<img src="http://payload417.cargocollective.com/1/10/335727/10643017/viandanti01_905.jpg">
+		  	</div>
+		  	<div class="ui vertical divider">
+		    AND
+		  	</div>
+		  	<div class="column">
+		    	<img src="http://www.automaticbooks.org/wp-content/uploads/2014/11/renato-agostin-frecce-6.jpg">
+		  	</div>
+		  	<div class="ui vertical divider">
+		    AND
+		  	</div>
+		  	<div class="column">
+		    	<p><img src="http://www.automaticbooks.org/wp-content/uploads/2012/02/AB-Angelo-Plessas-1.jpg"></p>
+		  	</div>
+		</div>
+		</section>
+
+
+		<section class="ui black inverted segment" style="position: relative">
+		<span class="ui left aligned">To check out, please sign up or sign in</span> <br><br>
+		<div class="ui two column very relaxed stackable grid">
+			<div class="column">
+		    	<form class="ui form">
+				  	<div class="field">
+				    	<input type="text" name="first-name" placeholder="Email">
+				  	</div>
+				  	<div class="field">
+				    	<input type="text" name="last-name" placeholder="Password">
+				  	</div>
+				  	<button class="ui basic button" type="submit">Submit</button>
+				</form>
+		  	</div>
+		  	<div class="ui vertical divider">
+		    OR
+		  	</div>
+		  	<div class="column">
+		    	<form class="ui form">
+					<div class="field">
+				    	<input type="text" name="first-name" placeholder="First Name">
+				  	</div>
+				  	<div class="field">
+				    	<input type="text" name="last-name" placeholder="Last Name">
+				  	</div>
+				  	<div class="field">
+				    	<input type="text" name="last-name" placeholder="Email">
+				  	</div>
+				  	<div class="field">
+				    	<input type="text" name="last-name" placeholder="New password">
+				  	</div>
+				  	<button class="ui basic button" type="submit">Submit</button>
+				</form>
+		  	</div>
+		</div>
+		</section>
+			<footer class="ui center aligned segment footer">
+			l'enfer c'est les autres <br />
+			<div>&copy; 2015</div>
+		</footer>
+
+	</body>
+</html>
+	

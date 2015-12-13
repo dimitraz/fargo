@@ -1,0 +1,125 @@
+body { 
+	margin: 0;
+}
+
+.grid img {
+	max-width: 100%;
+}
+
+.ui.black.inverted .button {
+	color: #fff !important;
+	border: 1px solid #fff;
+}
+
+.ui.black.inverted .button a {
+	color: #fff;
+}
+
+.ui.black.inverted .button a:hover, .ui.black.inverted .button:hover {
+	color: #000 !important;
+}
+
+.ui.black.inverted .vertical.divider:before, .ui.black.inverted .ui.vertical.divider:after {
+    border-left: 1px solid #fff;
+    color: #fff;
+}
+
+.ui.black.inverted .vertical.divider {
+	color: #fff;
+}
+
+.ui.black.inverted .ui.grid .column + .ui.vertical.divider {
+    height: calc(36% - 1rem );
+}
+
+.random { 
+	position: relative;
+}
+
+.text-child { 
+	position: absolute;
+	top: 48%;
+	left: 0px;
+	border-bottom: 1px solid #fff;
+	width: auto;
+	-webkit-transform: rotate(-90deg);
+}
+
+.text-child-2 { 
+	position: absolute;
+	top: 48%;
+	right: 0px;
+	border-bottom: 1px solid #fff;
+	width: auto;
+	-webkit-transform: rotate(90deg);
+}
+
+.text-child, .text-child-2, .meta-data {
+	font-family: inconsolata;
+}
+
+	font-family: 'Cinetype';
+	color: #fff;
+	padding: 35px;
+}
+
+#halloween hgroup h1, #halloween hgroup h3  { 
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+#halloween hgroup {
+	padding: 3em;
+}
+
+
+	.full { 
+		color: #fff;
+		width: 100%; 
+		height: 700px; 
+		background: #000;
+		background-size: cover !important;
+	}
+
+	.full > * { 
+		display: inline-block;
+	}
+
+	.full h1 {
+		font-size: 35px;
+	}
+
+
+@media all and (max-width: 850px) {
+      
+       .home, .banner, .wheel, .ripley, .halloween, .digital, .about, .full {
+    		height: 550px;
+    		background-position: 0 0 !important;
+    	}
+
+
+}
+
+@media all and (max-width: 640px) {
+
+		.music { 
+			padding: 2em 0 !important;
+		}
+      
+		.ui.container {
+			padding: 2em 0 2em 0 !important;
+		}
+
+        .home, .banner, .wheel, .ripley, .halloween, .digital, .about, .full {
+    		height: 350px !important;
+    		background-position: 0 0 !important;
+   		}
+
+   		.random .grid > * { 
+   			margin: 0 0 10px 0 !important;
+   			text-align: center;
+   		}
+
+   		h1 { font-size: 30px; }
+
+}

@@ -1,0 +1,299 @@
+
+		<!DOCTYPE html>
+<html>
+	<head>
+		<title>F/a/r/g/o</title>
+		<link rel="stylesheet" href="/semantic.css" type="text/css" />
+		<link rel="stylesheet" href="/style.css" type="text/css" screen="media" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="/semantic.js"></script>
+		<script>
+			$(document).ready(function() {
+			    $('.ui.dropdown').dropdown();
+			    $('#forthesakeofsticky .ui.sticky').sticky({ context: '#example1' });
+			    $('#forthesakeofstickytwo .ui.sticky').sticky({ context: '#example2' });
+			    $('.sidebarcont').click(function() { $('.ui.sidebar').sidebar('toggle'); });
+			});
+		</script>
+	</head>
+	<body>
+				<nav class="ui four item menu"> 
+		  <li class="item active item">
+		    <a href="/">Home</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/about.html">About</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/notes.html">Moodboard</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/shop.html">Shop</a>
+		  </li>
+		</nav>
+
+
+		<!--
+				  <li class="ui dropdown item">
+		    Categories
+		    <i class="dropdown icon"></i>
+		    <div class="menu">
+		      <a class="item">Electronics</a>
+		      <a class="item">Automotive</a>
+		      <a class="item">Home</a>
+		    </div>
+		  </li>  -->
+
+		<header class="ui center aligned segment home">
+			<h1>Fargo</h1> 
+			Visual arts and inspiration
+		</header>
+		
+			
+		<section class="ui stackable center aligned grid segment random">
+
+			<div class="text-child"> recent posts </div>
+			<div class="text-child-2"> recent posts </div>
+
+			<div class="seven wide column" style="margin-top: 150px;">
+					<img src="https://36.media.tumblr.com/a5e12c453cbf933f7c6808cb33be0e9b/tumblr_np1v40CAsc1tqob5io1_1280.jpg">
+			</div>
+
+			<div class="five wide column">
+					<img src="http://49.media.tumblr.com/24e6ffc1eceed77e603b1692ce8f8476/tumblr_nypy8m2p6l1qhrm3lo1_540.gif">
+			</div>
+
+			<div class="three wide column" style="margin-left: -100px; margin-top: 200px;">
+					<img src="/assets/images/posts/nasa/n6.jpg">
+			</div>
+		</section>
+
+		<!-- First group of posts -->
+		<div class="ui stackable grid segment container">
+
+			<div class="twelve wide column" id="example2">
+	        	<section class="ui two column grid">
+
+	        		<div class="column">
+						<a href="posts/nasa.html"> <img src="/assets/images/posts/nasa/n6.jpg" alt="Nasa" /> </a>
+						<span class="meta-data">18-10-15 <br /> Space </span> 
+						<br /> <br />
+						Nasa recently published over 8,000 high resolution scans from Apollo missions between the 60s and 70s.
+					</div>
+
+	        		<div class="column">
+	        			<img src="/assets/images/jm.jpg" />
+						<span class="meta-data">17-10-15 <br /> Architecture </span> 
+						<br /> <br />
+						Metabolism was a post-war Japanese architectural movement that fused ideas about architectural megastructures with those of organic biological growth.
+					</div>
+
+	        		<div class="column">
+	        			<a href="posts/language-poets.html"> 
+							<img src="/assets/images/lang.png" alt="Language poets" /> 
+						</a>
+						<span class="meta-data">18-10-15 <br /> Poetry </span> 
+						<br /> <br />
+						In the late 1960s, a group of left-wing, young and controversial poets, coming on the heels of movements such as the Black Mountain would come to form an avant-garde post-modernist school of poetry, gaining recognition as the Language poets.
+	        		</div>
+
+					<div class="column">
+						<a href="posts/glasgow.html"> 
+							<img src="/assets/images/events/g3.jpg" />
+						</a>
+						<span class="meta-data">17-10-15 <br /> Events </span> 
+						<br /> <br />
+						Live visual performance at the Lighthouse in Glasgow for the Graphic Design Festival Scotland this month.
+					</div>
+
+				</section>
+			</div>
+
+	        <div id="forthesakeofstickytwo" class="four wide center aligned column">
+	          <div class="ui sticky">
+	            Follow us on social media <br /><br />
+	            <div class="ui small basic vertical icon buttons">
+				  <button class="ui button"><i class="facebook icon"></i> Facebook</button>
+				  <button class="ui button"><i class="twitter icon"></i> Twitter</button>
+				  <button class="ui button"><i class="instagram icon"></i> Instagram</button>
+				  <button class="ui button"><i class="pinterest icon"></i> Pinterest</button>
+				</div>
+
+	          </div>
+	        </div>
+
+      	</div>
+
+		<!-- Second group of posts 
+		<div class="ui stackable grid segment container">
+
+			<div id="forthesakeofsticky" class="four wide column">
+	          <div class="ui sticky">
+	            <h3 class="ui header">Stuck Content</h3>
+	            <img class="ui wireframe image" width="100%" src="/assets/images/lang.png">
+	          </div>
+	        </div>
+
+			<div class="twelve wide column" id="example1">
+	        	<section class="ui two column grid">
+	        	
+	        		<div class="column">
+	        			<a href="posts/language-poets.html"> 
+							<img src="/assets/images/lang.png" alt="Language poets" /> 
+						</a>
+						<span class="meta-data">18-10-15 <br /> Poetry </span> 
+						<br /> <br />
+						In the late 1960s, a group of left-wing, young and controversial poets, coming on the heels of movements such as the Black Mountain would come to form an avant-garde post-modernist school of poetry, gaining recognition as the Language poets.
+	        		</div>
+
+	        		<div class="column">
+	        			<img src="/assets/images/nasa2.jpg" />
+						<span class="meta-data">17-10-15 <br /> Moda </span> 
+						<br /> <br />
+						Kanye West x Adidas Originals: Yeezy Season 1
+					</div>
+
+					<div class="column">
+						<a href="posts/nasa.html"> <img src="/assets/images/nasa2.jpg" alt="Nasa" /> </a>
+						<span class="meta-data">18-10-15 <br /> Space </span> 
+						<br /> <br />
+						Nasa recently published over 8,000 high resolution scans from Apollo missions between the 60s and 70s.
+					</div>
+
+					<div class="column">
+						<img src="/assets/images/nasa2.jpg" />
+						<span class="meta-data">17-10-15 <br /> Cinema, Noir </span> 
+						<br /> <br />
+						Morbi ipsum mi, tempor non erat nec, cursus ullamcorper leo. Phasellus efficitur aliquam odio, faucibus iaculis mi tempus eget.
+					</div>
+
+				</section>
+			</div>
+			-->
+
+      	</div>
+
+			<section class="ui grid segment">
+				<div class="sixteen wide column digital">
+					<a href="posts/digital.html"> 
+						<h2>Digitalised <br /> // </h2>
+					</a>
+				</div>
+
+				<div class="sixteen wide column wheel">
+					<a href="posts/nothing.html">
+						<h2>Performance &mdash; <br /> Francis Alys</h2>
+					</a>
+				</div>
+			</section>
+
+					<section class="ui container">
+				<div class="music">
+					<h3> Music </h3>
+					Playlist for 13th of December
+				</div>
+			</section> 
+
+			<section class="ui stackable cards three column very relaxed container" style="padding-top: 0 !important;">
+			<div class="column card">
+			  	<div class="content">
+						<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/99335207&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+						Andy Bull <br />
+						Baby I Am Nobody Now
+			  	</div>
+			</div>
+
+			<div class="column card">
+				<div class="content">
+						<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120056489&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+
+						Snakadaktal (Kilter remix) <br />
+						Fall underneath
+			  	</div>
+			</div>
+
+			<div class="column card">
+				<div class="content">
+						<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/226176812&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+						The Garden <br />
+						Egg
+			  	</div>
+			</div>
+			</section>
+
+			<section class="ui grid segment">
+				<div class="sixteen wide column ripley">
+					<a href="/posts/ripley.html"> 
+						<h2>Cinema club - <br /> The talented mr. ripley</h2>
+					</a>
+				</div>
+
+				<div class="sixteen wide column halloween">
+					<a href="/posts/halloween.html"> 
+						<h2>Cinema club - <br /> Halloween</h2>
+					</a>
+				</dov>
+			</section>
+
+			<section class="random">
+			<section class="ui four column stackable grid container random">
+					<article class="column">
+					    <img src="/assets/images/f1.jpg"> <br />
+					    JW Anderson S/S 16  
+					</article>
+
+					<article class="column">
+					    <img src="/assets/images/f2.jpg">  <br />
+					    Backstage @ Matthew Miller S/S 15
+					</article>
+
+					<article class="column">
+					    <img src="/assets/images/f3.jpg"> <br />
+					    Junya Watanabe S/S 2000
+					</article>
+
+					<article class="column">
+					    <img src="/assets/images/charley.png"> <br />
+					    Charley Speed ph. Walter Chin, L'Uomo Vogue 98
+					</article>
+			</section>
+			</section>
+			
+			<section class="ui segment">
+				This week in
+				<h1>Instagram</h1>
+
+				<section class="ui stackable grid">
+					<div class="five wide column" style="margin-top: 100px;">
+					    <img src="/assets/images/home/i7.jpg"> <br />
+					    @venicew
+					</div>
+
+					<div class="four wide column">
+					    <img src="/assets/images/home/i4.jpg"> <br />
+					    @p.lzz
+					</div>
+
+					<div class="four wide column" style="margin-top: 150px; margin-left: -80px;">
+					    <img src="/assets/images/home/i5.jpg"> <br />
+					    @joshzoo
+					</div>
+
+					<div class="three wide column">
+					    <img src="/assets/images/home/i6.jpg" style="margin-top: 20px;"> <br />
+					    @maddibragg
+					</div>
+				</section>
+			</section>
+
+		</section>
+
+				<footer class="ui center aligned segment footer">
+			l'enfer c'est les autres <br />
+			<div>&copy; 2015</div>
+		</footer>
+
+	</body>
+</html>

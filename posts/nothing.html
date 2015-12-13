@@ -1,0 +1,80 @@
+	
+	<!DOCTYPE html>
+<html>
+	<head>
+		<title>F/a/r/g/o</title>
+		<link rel="stylesheet" href="/semantic.css" type="text/css" />
+		<link rel="stylesheet" href="/style.css" type="text/css" screen="media" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="/semantic.js"></script>
+		<script>
+			$(document).ready(function() {
+			    $('.ui.dropdown').dropdown();
+			    $('#forthesakeofsticky .ui.sticky').sticky({ context: '#example1' });
+			    $('#forthesakeofstickytwo .ui.sticky').sticky({ context: '#example2' });
+			    $('.sidebarcont').click(function() { $('.ui.sidebar').sidebar('toggle'); });
+			});
+		</script>
+	</head>
+	<body>
+			<nav class="ui four item menu"> 
+		  <li class="item item">
+		    <a href="/">Home</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/about.html">About</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/notes.html">Moodboard</a>
+		  </li>
+		  <li class="item">
+		    <a href="/pages/shop.html">Shop</a>
+		  </li>
+		</nav>
+
+
+		<!--
+				  <li class="ui dropdown item">
+		    Categories
+		    <i class="dropdown icon"></i>
+		    <div class="menu">
+		      <a class="item">Electronics</a>
+		      <a class="item">Automotive</a>
+		      <a class="item">Home</a>
+		    </div>
+		  </li>  --> 
+	<header class="ui center aligned segment banner">
+			<h1>Sometimes making something leads to nothing</h1>
+			Art
+		</header>
+
+		<article class="ui stackable grid container">
+			<aside class="four wide column">
+				<strong> Paradox of Praxis </strong> <br><br>
+				<div class="ui vertical basic buttons">
+				  <button class="ui button">01-12</button>
+				  <button class="ui button">Art</button>
+				  <button class="ui button">Performance</button>
+				  <button class="ui button">Film</button>
+				</div>
+				<br><br>
+				<div class="ui small basic icon buttons">
+				  <button class="ui button"><i class="facebook icon"></i></button>
+				  <button class="ui button"><i class="twitter icon"></i></button>
+				  <button class="ui button"><i class="heart icon"></i></button>
+				</div>
+			</aside>
+
+			<div class="twelve wide column segment">
+					<p> Sometimes Making Something Leads to Nothing takes its title from a work by the Belgian born artist Francis Alÿs. In his short film Paradox of Praxis I, the artist pushes a large block of ice through the streets of Mexico City: at 9.15am he is battling with the traction of a huge weight, by lunchtime he is shuffling it with his feet, and at 6.47pm all that remains is a small wet stain on the pavement. </p>
+					<p> <iframe width="550" height="315" src="https://www.youtube.com/embed/ZedESyQEnMA" frameborder="0" allowfullscreen></iframe> </p>
+			</div>
+		</article>
+			<footer class="ui center aligned segment footer">
+			l'enfer c'est les autres <br />
+			<div>&copy; 2015</div>
+		</footer>
+
+	</body>
+</html>
+	
